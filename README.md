@@ -25,3 +25,39 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+# 📊 Highcharts Demo — Visitor Analytics Dashboard
+
+An interactive **Angular** dashboard powered by **Highcharts** that visualizes daily and hourly visitor data.  
+Users can switch between chart types (Column, Line, Pie) and see real-time visitor breakdowns per hour.
+
+---
+
+## 🚀 Features
+
+- 📅 Select different days to view their visitor statistics  
+- 📈 Switch between **Column**, **Line**, or **Pie** charts dynamically  
+- 📊 Displays hourly visitor distribution and percentage of total visits  
+- 💡 Responsive layout using **Bootstrap 5**  
+- ⚡ Built with **Highcharts** for rich, interactive chart visuals
+
+---
+
+## 🛠️ Tech Stack
+
+- **Angular 16+**
+- **TypeScript**
+- **Bootstrap 5**
+- **Highcharts**
+- **SCSS**
+
+---
+
+## 📦 Installation and Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/gayatribodake/highcharts-demo.git
+
+
