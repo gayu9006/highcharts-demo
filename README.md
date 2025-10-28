@@ -1,63 +1,113 @@
-# HighchartsDemo
+# Highcharts Demo — Visitor Analytics Dashboard
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+An interactive Angular dashboard built with Highcharts to visualize daily and hourly visitor data.  
+Users can switch between different chart types (Column, Line, or Pie) and view detailed hourly visitor breakdowns. 
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Select different days to view visitor statistics  
+- Toggle between **Column**, **Line**, and **Pie** charts dynamically  
+- Displays hourly visitor breakdown with percentage of total visitors  
+- Responsive UI built with **Bootstrap 5**  
+- Interactive data visualization powered by **Highcharts**
+ 
 
-## Code scaffolding
+## Tech Stack
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular 16+
+- TypeScript
+- Bootstrap 5
+- Highcharts
+- SCSS
+ 
+## Installation and Setup Guide
 
-## Build
+Follow the steps below to set up and run the project locally.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 1. Clone the repository 
+git clone https://github.com/gayu9006/highcharts-demo.git 
 
-## Running unit tests
+### 2. Navigate to the project directory 
+cd highcharts-demo 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 3. Install dependencies  
+npm install  
 
-## Running end-to-end tests
+### 4. Run the development server  
+ng serve  
+Now open your browser and navigate to:  
+👉 [http://localhost:4200](http://localhost:4200)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+The application will automatically reload if you make any changes to the source files.
 
-## Further help
+## Build for Production
+To build the project for production, run:
+ng build
+The compiled files will be stored in the `dist/` folder.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-
-# 📊 Highcharts Demo — Visitor Analytics Dashboard
-
-An interactive **Angular** dashboard powered by **Highcharts** that visualizes daily and hourly visitor data.  
-Users can switch between chart types (Column, Line, Pie) and see real-time visitor breakdowns per hour.
+## Project Structure 
+src/
+ ├── app/
+ │    ├── app.component.ts
+ │    ├── app.component.html
+ │    ├── app.component.scss
+ │    └── app.module.ts
+ ├── assets/
+ │    └── visitor-data.json
+ ├── environments/
+ ├── index.html
+ └── styles.scss
+ 
 
 ---
 
-## 🚀 Features
+## Git Commands (Complete Workflow) 
+If you are setting up a new repository or pushing updates, use the following commands:
 
-- 📅 Select different days to view their visitor statistics  
-- 📈 Switch between **Column**, **Line**, or **Pie** charts dynamically  
-- 📊 Displays hourly visitor distribution and percentage of total visits  
-- 💡 Responsive layout using **Bootstrap 5**  
-- ⚡ Built with **Highcharts** for rich, interactive chart visuals
+### Initialize a new repository (if not already done)  
+git init
+ 
+
+### Add all files to staging 
+git add .
+ 
+
+### Commit changes 
+git commit -m "Initial commit"
+ 
+
+### Add the remote repository 
+git remote add origin https://github.com/gayu9006/highcharts-demo.git
+ 
+
+### Push the project to GitHub 
+git branch -M main
+git push -u origin main
+ 
+
+### For future updates 
+git add .
+git commit -m "Updated files"
+git push
+ 
 
 ---
 
-## 🛠️ Tech Stack
+## Running Tests 
+### Unit Tests
+Run unit tests using Karma: 
+ng test
+ 
 
-- **Angular 16+**
-- **TypeScript**
-- **Bootstrap 5**
-- **Highcharts**
-- **SCSS**
+### End-to-End Tests
+To run end-to-end tests: 
+ng e2e
+ 
+ 
+## About 
+Developed by **Gayatri Bodake**  
+GitHub: [https://github.com/gayu9006](https://github.com/gayu9006)
+ 
 
----
-
-## 📦 Installation and Setup
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/gayu9006/highcharts-demo.git
-
-
+## License 
+This project is licensed under the MIT License.
