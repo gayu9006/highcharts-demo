@@ -58,6 +58,6 @@ Users can switch between chart types (Column, Line, Pie) and see real-time visit
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/gayatribodake/highcharts-demo.git
+git clone https://github.com/gayu9006/highcharts-demo.git
 
 
